@@ -53,12 +53,23 @@ body {
 /* MAIN */
 .main-content {
     height: 100vh;
-    margin-top: 25px;
+    margin-top: 60px;
 }
 
 .sidebar {
-    height: 100%;
-    width: 150px;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 150px;
+}
+
+.main-content .sidebar .menu-up {
+height: 200px;
+}
+
+.main-content .sidebar .menu-down {
+    height: 80px;
+margin-bottom: 60px;
 }
 
 .content {
