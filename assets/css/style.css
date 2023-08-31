@@ -113,7 +113,7 @@ body {
 }
 
 .table-class .table tr td:first-child {
-    width: 60%;
+    width: 56%;
 }
 
 .table-class .table tr td:first-child .img {
@@ -155,12 +155,9 @@ body {
     }
 
 
-
     .sidebar {
         width: 60px;
     }
-
-
 
 
     .content {
@@ -169,7 +166,31 @@ body {
 
 }
 
-
-
-
 /* /breakpoint md */
+
+
+
+
+
+/* breakpoint xxl */
+@media screen and (max-width: 1200px) {
+
+    .table-class .table tr td:first-child {
+        width: 10%;
+    }
+}
+
+/* /breakpoint xxl */
+
+
+
+
+/* breakpoint xxl */
+@media screen and (max-width: 1400px) {
+
+    .table-class .table tr td:first-child {
+        width: 40%;
+    }
+}
+
+/* /breakpoint xxl */
