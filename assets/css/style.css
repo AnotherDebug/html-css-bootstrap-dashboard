@@ -9,12 +9,14 @@ body {
     border: 1px solid #000;
 }
 
-
+/*  */
 .container-fluid {
     padding: 0;
 }
 
 
+
+/* MAIN */
 .main-content {
     height: 100vh;
     margin-top: 25px;
@@ -30,6 +32,8 @@ body {
     width: calc(100% - 150px);
     overflow-y: auto;
 }
+
+/* /MAIN */
 
 
 
