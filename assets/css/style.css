@@ -3,17 +3,51 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.w-95 {
+    width: 95%;
+}
+
+
 /* !"DEBUG" DA ELIMINARE TERMINATO IL CODICE*/
 .debug {
     background-color: rgba(0, 102, 255, 0.5);
     border: 1px solid #000;
 }
 
-/*  */
+/* container */
 .container-fluid {
     padding: 0;
 }
 
+
+/* HEADER */
+.fixed-top {
+    height: 60px;
+} 
+.fixed-top .container-fluid .mobile-logo {
+    height: 45px;
+    display: none;
+} 
+
+.fixed-top .container-fluid .mobile-logo img {
+    height: 100%;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.navbar .collapse>form .form-control{
+    padding-left: 30px;
+}
+
+.navbar .collapse>form i {
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+/* /HEADER */
 
 
 /* MAIN */
@@ -40,29 +74,32 @@ body {
 
 
 
+/* breakpoint md */
+@media screen and (max-width: 768px) {
+    .fixed-top .container-fluid .mobile-logo {
+        display: block;
+    }
+
+    .fixed-top .container-fluid .logo {
+        height: 45px;
+        display: none;
+    } 
+
+    .h-menu {
+        display: none;
+    }
+
+    .question {
+        display: none;
+    }
+
+    .e-menu {
+        display: none;
+    }
+
+}
+
+    
 
 
-
-
-
-
-
-
-
-
-
-
-/* .container-fluid .main-content .sidebar {
-    width: 150px;
-    height: 100%;
-} */
-
-/* Content */
-/* .container-fluid .main-content .content {
-    height: calc(100vh - 90px);
-    width: calc(100% - 225px);
-    overflow-y: scroll;
-    overflow: auto;
-    margin-left: 150px;
-}  */
-
+/* /breakpoint md */
