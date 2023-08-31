@@ -132,7 +132,7 @@ body {
 
 
 /* breakpoint md */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .fixed-top .container-fluid .mobile-logo {
         display: block;
     }
