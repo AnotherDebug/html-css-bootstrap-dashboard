@@ -7,6 +7,10 @@ body {
     width: 95%;
 }
 
+.pr-12 {
+    padding-right: 12px;
+}
+
 
 /* !"DEBUG" DA ELIMINARE TERMINATO IL CODICE*/
 .debug {
@@ -80,12 +84,42 @@ body {
 }
 
 
+
+
+.table-class {
+  border-radius: 5px;
+  height: 200px;
+
+}
+
+.faq {
+  border-radius: 5px;
+  height: 200px;
+
+}
+
+.todo {
+  border-radius: 5px;
+  height: 200px;
+
+}
+
+.graphic {
+  border-radius: 5px;
+  height: 200px;
+
+}
+
+.table-class .table tr td:first-child {
+    width: 60%;
+}
+
 .table-class .table tr td:first-child .img {
-height: 20px;
+    height: 20px;
 }
 
 .table-class .table tr td:first-child .img img {
-height: 100%;
+    height: 100%;
 }
 
 /* /MAIN */
