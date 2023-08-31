@@ -11,6 +11,10 @@ body {
     padding-right: 12px;
 }
 
+.button-ad {
+    padding: 0 5px;
+}
+
 
 /* !"DEBUG" DA ELIMINARE TERMINATO IL CODICE*/
 .debug {
@@ -88,8 +92,6 @@ body {
 
 .table-class {
   border-radius: 5px;
-  height: 200px;
-
 }
 
 .faq {
@@ -115,7 +117,7 @@ body {
 }
 
 .table-class .table tr td:first-child .img {
-    height: 20px;
+    height: 25px;
 }
 
 .table-class .table tr td:first-child .img img {
