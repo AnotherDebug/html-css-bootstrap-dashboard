@@ -1,3 +1,64 @@
 body {
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
 }
+
+/* !"DEBUG" DA ELIMINARE TERMINATO IL CODICE*/
+.debug {
+    background-color: rgba(0, 102, 255, 0.5);
+    border: 1px solid #000;
+}
+
+
+.fixed-top {
+    margin: 0 12px;
+}
+
+
+.main-content {
+    height: 100vh;
+    margin-top: 25px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 150px;
+}
+
+.content {
+    height: 100%;
+    width: calc(100% - 150px);
+    overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container-fluid .main-content .sidebar {
+    width: 150px;
+    height: 100%;
+} */
+
+/* Content */
+/* .container-fluid .main-content .content {
+    height: calc(100vh - 90px);
+    width: calc(100% - 225px);
+    overflow-y: scroll;
+    overflow: auto;
+    margin-left: 150px;
+}  */
+
