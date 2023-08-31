@@ -79,6 +79,15 @@ body {
     overflow-y: auto;
 }
 
+
+.table-class .table tr td:first-child .img {
+height: 20px;
+}
+
+.table-class .table tr td:first-child .img img {
+height: 100%;
+}
+
 /* /MAIN */
 
 
