@@ -10,8 +10,8 @@ body {
 }
 
 
-.fixed-top {
-    margin: 0 12px;
+.container-fluid {
+    padding: 0;
 }
 
 
