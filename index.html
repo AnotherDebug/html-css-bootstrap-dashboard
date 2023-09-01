@@ -143,7 +143,32 @@
                         <div class="row bg-primary text-white">
                             <div class="col">
                                 <div class="row flex-row-reverse">
-                                    <div class="col-12 col-md-4 col-lg-2">Nuovo Studente</div>
+
+                                    <!-- NUOVO STUDENTE -->
+                                    <div class="col-12 col-md-4 col-lg-2">
+                                        
+                                        <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas"
+                                            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+
+                                        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                                            id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                                            <div class="offcanvas-header">
+                                                <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <div>
+                                                    I will not close if you click outside of me.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /NUOVO STUDENTE -->
+
+                                    <!-- BOOLEAN -->
                                     <div class="col">
                                         <div class="row">
                                             <div class="col-12 col-md-6 col-lg-8">
@@ -151,7 +176,7 @@
                                                     <div class="col d-flex align-items-center">
                                                         <h2 class="me-2">Boolean</h2>
                                                         <button type="button"
-                                                            class="btn btn-primary bg-darkblue rounded-5"
+                                                            class="btn btn-primary bg-darkblue rounded-5 flex-shrink-0"
                                                             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; ">
                                                             Piano blaze
                                                         </button>
@@ -186,9 +211,14 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-md-6 col-lg-4 debug">online</div>
+                                            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column pt-3">
+                                                <p>Studenti online negli ultimi 30 minuti</p>
+                                                <p class="fs-2">125</p>
+                                            </div>
                                         </div>
                                     </div>
+                                    <!-- /BOOLEAN -->
+
                                 </div>
                             </div>
                         </div>
