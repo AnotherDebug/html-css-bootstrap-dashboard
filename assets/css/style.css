@@ -15,6 +15,10 @@ body {
     padding: 0 5px;
 }
 
+.white-color {
+    color: white;
+}
+
 
 /* !"DEBUG" DA ELIMINARE TERMINATO IL CODICE*/
 .debug {
@@ -70,10 +74,19 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 150px;
+    background-image: url('../img/sidebar-bg.png');
 }
 
 .main-content .sidebar .menu-up {
     height: 100px;
+}
+
+.main-content .sidebar .menu-up ul li:nth-child(2) i {
+    padding-right: 21px;
+}
+
+.menu-up ul li:nth-child(3) i {
+    padding-right: 14px;
 }
 
 .main-content .sidebar .menu-down {
@@ -91,24 +104,24 @@ body {
 
 
 .table-class {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 
 .faq {
-  border-radius: 5px;
-  height: 200px;
+    border-radius: 5px;
+    height: 200px;
 
 }
 
 .todo {
-  border-radius: 5px;
-  height: 200px;
+    border-radius: 5px;
+    height: 200px;
 
 }
 
 .graphic {
-  border-radius: 5px;
-  height: 200px;
+    border-radius: 5px;
+    height: 200px;
 
 }
 
@@ -157,6 +170,14 @@ body {
 
     .sidebar {
         width: 60px;
+    }
+
+    .sidebar .menu-up ul li a span {
+        display: none;
+    }
+
+    .sidebar .menu-down a span {
+        display: none;
     }
 
 
