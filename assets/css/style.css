@@ -103,35 +103,12 @@ body {
 
 
 
-.table-class {
-    border-radius: 5px;
-}
 
-.faq {
-    border-radius: 5px;
-    height: 200px;
-
-}
-
-.todo {
-    border-radius: 5px;
-    height: 200px;
-
-}
-
-.graphic {
-    border-radius: 5px;
-}
-
-.table-class .table tr td:first-child {
-    width: 56%;
-}
-
-.table-class .table tr td:first-child .img {
+.table tr td:first-child .img {
     height: 25px;
 }
 
-.table-class .table tr td:first-child .img img {
+.table tr td:first-child .img img {
     height: 100%;
 }
 
