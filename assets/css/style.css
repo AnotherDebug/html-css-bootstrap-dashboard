@@ -19,6 +19,10 @@ body {
     color: white;
 }
 
+.bg-beige {
+    background-color: #f8f9fa;
+}
+
 
 /* !"DEBUG" DA ELIMINARE TERMINATO IL CODICE*/
 .debug {
@@ -110,6 +114,11 @@ body {
 
 .table tr td:first-child .img img {
     height: 100%;
+}
+
+
+.graphic {
+    border: 1px solid lightgrey;
 }
 
 /* /MAIN */
