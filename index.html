@@ -140,13 +140,24 @@
                     <div class="container-fluid">
 
                         <!-- row top content -->
-                        <div class="row">
+                        <div class="row bg-primary text-white">
                             <div class="col">
                                 <div class="row flex-row-reverse">
-                                    <div class="col-12 col-md-4 col-lg-2 debug">Nuovo Studente</div>
-                                    <div class="col  debug">
+                                    <div class="col-12 col-md-4 col-lg-2">Nuovo Studente</div>
+                                    <div class="col">
                                         <div class="row">
-                                            <div class="col-12 col-md-6 col-lg-8 debug">boolean</div>
+                                            <div class="col-12 col-md-6 col-lg-8">
+                                                <div class="row flex-column p-3 ">
+                                                    <div class="col d-flex align-items-center">
+                                                        <h2 class="me-2">Boolean</h2>
+                                                        <button type="button" class="btn btn-primary bg-darkblue rounded-5"
+                                                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; ">
+                                                            Piano blaze
+                                                        </button>
+                                                    </div>
+                                                    <div class="col">buttons</div>
+                                                </div>
+                                            </div>
                                             <div class="col-12 col-md-6 col-lg-4 debug">online</div>
                                         </div>
                                     </div>
@@ -163,7 +174,7 @@
                                     <div class="col py-3 ps-4">
                                         <div class="card">
                                             <div class="card-header">
-                                              <h3>Prossime classi</h3>
+                                                <h3>Prossime classi</h3>
                                             </div>
                                             <div class="card-body">
                                                 <table class="table">
@@ -229,7 +240,8 @@
                                                             <td class="text-center pb-3">17 Feb 2021</td>
                                                             <td class="text-center">20%</td>
                                                             <td class="text-center">
-                                                                <span class="badge text-bg-warning text-white">Process</span>
+                                                                <span
+                                                                    class="badge text-bg-warning text-white">Process</span>
                                                             </td>
                                                             <td class="text-center">
                                                                 <button type="button"
@@ -348,7 +360,7 @@
                                                     </tbody>
                                                 </table>
                                             </div>
-                                          </div>
+                                        </div>
                                     </div>
                                     <div class="col py-3 ps-4">
                                         <div class="card">
@@ -358,36 +370,64 @@
                                             <div class="card-body">
                                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                                     <div class="accordion-item">
-                                                      <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                          Come aggiungere un nuovo studente?
-                                                        </button>
-                                                      </h2>
-                                                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                                      </div>
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseOne"
+                                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                Come aggiungere un nuovo studente?
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">Placeholder content for this
+                                                                accordion, which is intended to demonstrate the
+                                                                <code>.accordion-flush</code> class. This is the first
+                                                                item's accordion body.</div>
+                                                        </div>
                                                     </div>
                                                     <div class="accordion-item">
-                                                      <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                          Come posso accedere alle informazioni del mio account?
-                                                        </button>
-                                                      </h2>
-                                                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                                      </div>
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseTwo"
+                                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                Come posso accedere alle informazioni del mio account?
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">Placeholder content for this
+                                                                accordion, which is intended to demonstrate the
+                                                                <code>.accordion-flush</code> class. This is the second
+                                                                item's accordion body. Let's imagine this being filled
+                                                                with some actual content.</div>
+                                                        </div>
                                                     </div>
                                                     <div class="accordion-item">
-                                                      <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                          Posso usare questa dashboard da mobile?
-                                                        </button>
-                                                      </h2>
-                                                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                                      </div>
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="flush-collapseThree">
+                                                                Posso usare questa dashboard da mobile?
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseThree"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">Placeholder content for this
+                                                                accordion, which is intended to demonstrate the
+                                                                <code>.accordion-flush</code> class. This is the third
+                                                                item's accordion body. Nothing more exciting happening
+                                                                here in terms of content, but just filling up the space
+                                                                to make it look, at least at first glance, a bit more
+                                                                representative of how this would look in a real-world
+                                                                application.</div>
+                                                        </div>
                                                     </div>
-                                                  </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
