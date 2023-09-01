@@ -180,9 +180,10 @@ body {
 /* breakpoint xxl */
 @media screen and (max-width: 1200px) {
 
-    .table-class .table tr td:first-child {
+   
+    /* .table-class .table tr td:first-child {
         width: 10%;
-    }
+    } */
 }
 
 /* /breakpoint xxl */
@@ -193,9 +194,9 @@ body {
 /* breakpoint xxl */
 @media screen and (max-width: 1400px) {
 
-    .table-class .table tr td:first-child {
+    /* .table-class .table tr td:first-child {
         width: 40%;
-    }
+    } */
 }
 
 /* /breakpoint xxl */
