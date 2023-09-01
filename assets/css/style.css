@@ -3,16 +3,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.w-95 {
-    width: 95%;
-}
 
 .pr-12 {
     padding-right: 12px;
-}
-
-.button-ad {
-    padding: 0 5px;
 }
 
 .white-color {
