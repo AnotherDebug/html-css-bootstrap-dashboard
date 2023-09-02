@@ -46,6 +46,9 @@
 
             <div class="fixed-top">
 
+
+
+                <!-- NAVBAR -->
                 <nav class="navbar navbar-expand bg-body-tertiary px-3">
                     <div class="container-fluid">
 
@@ -72,9 +75,9 @@
                             <div class="e-menu"><i class="fa-solid fa-ellipsis-vertical"></i></div>
 
                             <div class="dropdown">
-                                <button class="btn" title="dropdown" type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <i class="fa-solid fa-bell"></i>
+                                <button class="btn border-none-ad" title="dropdown" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell orange-color"></i>
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-lg-end">
                                     <li><a class="dropdown-item" href="#">Profilo</a></li>
@@ -86,6 +89,9 @@
                         </div>
                     </div>
                 </nav>
+                <!-- /NAVBAR -->
+
+
 
             </div>
 
@@ -100,8 +106,11 @@
 
             <div class="main-content d-flex">
 
+
+
                 <!-- sidebar -->
                 <div class="sidebar bg-black">
+                    <!-- MENU UP -->
                     <div class="menu-up ps-3 pt-4">
                         <ul class="list-unstyled">
 
@@ -125,15 +134,26 @@
                                     <span>Signals</span>
                                 </a>
                             </li>
+
                         </ul>
                     </div>
+                    <!-- /MENU UP -->
+
+                    <!-- MENU DOWN -->
                     <div class="menu-down pt-3 ps-3">
+
                         <a class="text-decoration-none white-color" href="#">
                             <i class="fa-solid fa-gear pe-3"></i>
                             <span>Admin</span>
                         </a>
+
                     </div>
+
+
                 </div>
+                <!-- /sidebar -->
+
+
 
                 <!-- content -->
                 <div class="content bg-beige pb-5 pr-12">
@@ -143,6 +163,8 @@
                         <div class="row bg-primary text-white">
                             <div class="col">
                                 <div class="row flex-row-reverse">
+
+
 
                                     <!-- NUOVO STUDENTE -->
                                     <div class="col-12 col-md-4 col-lg-2 pt-3">
@@ -154,7 +176,7 @@
                                             <i class="fa-solid fa-plus"></i>
                                         </button>
 
-                                        <div class="offcanvas offcanvas-end w-50  " data-bs-backdrop="static"
+                                        <div class="offcanvas offcanvas-end w-50" data-bs-backdrop="static"
                                             tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                                             <div class="offcanvas-header">
                                                 <h5 class="offcanvas-title" id="staticBackdropLabel">Inserisci un nuovo
@@ -164,6 +186,7 @@
                                             </div>
                                             <div class="offcanvas-body">
 
+
                                                 <!-- FORM -->
                                                 <form action="#">
 
@@ -171,12 +194,12 @@
                                                         <div class="col-12 col-lg-6 mb-3">
                                                             <label for="first name" class="form-label">Nome</label>
                                                             <input type="text" class="form-control"
-                                                                 aria-label="First name">
+                                                                aria-label="First name">
                                                         </div>
                                                         <div class="col-12 col-lg-6 mb-3">
                                                             <label for="last name" class="form-label">Cognome</label>
                                                             <input type="text" class="form-control"
-                                                                 aria-label="Last name">
+                                                                aria-label="Last name">
                                                         </div>
                                                     </div>
 
@@ -184,9 +207,11 @@
                                                         <div class="col-12 col-lg-6 mb-3">
                                                             <label for="email" class="form-label">Email</label>
                                                             <div class="input-group mb-3">
-                                                                <span class="input-group-text" id="basic-addon1">@</span>
-                                                                <input type="email" class="form-control" aria-label="email" aria-describedby="basic-addon1">
-                                                              </div>
+                                                                <span class="input-group-text"
+                                                                    id="basic-addon1">@</span>
+                                                                <input type="email" class="form-control"
+                                                                    aria-label="email" aria-describedby="basic-addon1">
+                                                            </div>
                                                         </div>
                                                         <div class="col-12 col-lg-6 mb-3">
                                                             <label for="inputPassword"
@@ -198,10 +223,11 @@
 
                                                     <form class="row">
                                                         <div class="col-12 mb-3">
-                                                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                            <label for="inputAddress"
+                                                                class="form-label">Indirizzo</label>
                                                             <input type="text" class="form-control" id="inputAddress">
                                                         </div>
-                                                        
+
                                                         <div class="row">
                                                             <div class="col-12 col-lg-6 mb-3">
                                                                 <label for="inputCity" class="form-label">Città</label>
@@ -221,9 +247,10 @@
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <label for="formFile" class="form-label">Nessun file selezionato</label>
+                                                            <label for="formFile" class="form-label">Nessun file
+                                                                selezionato</label>
                                                             <input class="form-control" type="file" id="formFile">
-                                                          </div>
+                                                        </div>
 
                                                         <div class="col mb-3">
                                                             <div class="form-check">
@@ -238,21 +265,28 @@
                                                             <button type="submit" class="btn btn-primary">Salva</button>
                                                             <input class="btn btn-warning" type="reset" value="Svuota">
                                                         </div>
-                                                        
+
                                                     </form>
 
                                                 </form>
                                                 <!-- /FORM -->
+
 
                                             </div>
                                         </div>
                                     </div>
                                     <!-- /NUOVO STUDENTE -->
 
-                                    <!-- BOOLEAN -->
+
+
+
                                     <div class="col">
                                         <div class="row">
                                             <div class="col-12 col-md-6 col-lg-8">
+
+
+
+                                                <!-- BOOLEAN -->
                                                 <div class="row flex-column p-3">
                                                     <div class="col d-flex align-items-center">
                                                         <h2 class="me-2">Boolean</h2>
@@ -291,19 +325,29 @@
                                                         </button>
                                                     </div>
                                                 </div>
+                                                <!-- /BOOLEAN -->
+
+
                                             </div>
+
+
+                                            <!-- ONLINE -->
                                             <div class="col-12 col-md-6 col-lg-4 d-flex flex-column pt-3 ps-4 ">
                                                 <p>Studenti online negli ultimi 30 minuti</p>
                                                 <p class="fs-2">125</p>
                                             </div>
+
+
+
                                         </div>
                                     </div>
-                                    <!-- /BOOLEAN -->
-
                                 </div>
                             </div>
                         </div>
                         <!-- /row top content -->
+
+
+
 
                         <!-- row bottom content -->
                         <div class="row">
@@ -311,12 +355,17 @@
                             <div class="col-12 col-lg-8">
                                 <div class="row flex-column ">
                                     <div class="col py-3 ps-4">
+
+
+                                        <!-- PROSSIME CLASSI CARD -->
                                         <div class="card">
                                             <div class="card-header">
                                                 <h3>Prossime classi</h3>
                                             </div>
                                             <div class="card-body">
 
+
+                                                <!-- TABLE -->
                                                 <table class="table table-hover">
                                                     <thead>
                                                         <tr class="align-bottom">
@@ -499,11 +548,20 @@
                                                         </tr>
                                                     </tbody>
                                                 </table>
+                                                <!-- /TABLE -->
+
 
                                             </div>
                                         </div>
+                                        <!-- /PROSSIME CLASSI CARD -->
+
+
                                     </div>
                                     <div class="col py-3 ps-4">
+
+
+
+                                        <!-- F.A.Q. CARD -->
                                         <div class="card">
                                             <div class="card-header">
                                                 <h3>F.A.Q.</h3>
@@ -521,10 +579,15 @@
                                                         </h2>
                                                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                                                             data-bs-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this
-                                                                accordion, which is intended to demonstrate the
-                                                                <code>.accordion-flush</code> class. This is the first
-                                                                item's accordion body.
+                                                            <div class="accordion-body">Lorem ipsum dolor sit amet
+                                                                consectetur adipisicing elit. Perferendis ullam quisquam
+                                                                molestiae laudantium. Quo, repellat reprehenderit. Natus
+                                                                reiciendis facere excepturi tenetur a dignissimos
+                                                                consequatur eaque aspernatur cumque perspiciatis est
+                                                                neque numquam nam, debitis reprehenderit necessitatibus!
+                                                                Iure cum dicta facilis repellendus accusantium quam
+                                                                ullam ea, nihil, suscipit, minima obcaecati ab
+                                                                inventore!
                                                             </div>
                                                         </div>
                                                     </div>
@@ -539,11 +602,15 @@
                                                         </h2>
                                                         <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                                             data-bs-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this
-                                                                accordion, which is intended to demonstrate the
-                                                                <code>.accordion-flush</code> class. This is the second
-                                                                item's accordion body. Let's imagine this being filled
-                                                                with some actual content.
+                                                            <div class="accordion-body">Lorem ipsum dolor sit amet
+                                                                consectetur adipisicing elit. Perferendis ullam quisquam
+                                                                molestiae laudantium. Quo, repellat reprehenderit. Natus
+                                                                reiciendis facere excepturi tenetur a dignissimos
+                                                                consequatur eaque aspernatur cumque perspiciatis est
+                                                                neque numquam nam, debitis reprehenderit necessitatibus!
+                                                                Iure cum dicta facilis repellendus accusantium quam
+                                                                ullam ea, nihil, suscipit, minima obcaecati ab
+                                                                inventore!
                                                             </div>
                                                         </div>
                                                     </div>
@@ -560,20 +627,25 @@
                                                         <div id="flush-collapseThree"
                                                             class="accordion-collapse collapse"
                                                             data-bs-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this
-                                                                accordion, which is intended to demonstrate the
-                                                                <code>.accordion-flush</code> class. This is the third
-                                                                item's accordion body. Nothing more exciting happening
-                                                                here in terms of content, but just filling up the space
-                                                                to make it look, at least at first glance, a bit more
-                                                                representative of how this would look in a real-world
-                                                                application.
+                                                            <div class="accordion-body">Lorem ipsum dolor sit amet
+                                                                consectetur adipisicing elit. Perferendis ullam quisquam
+                                                                molestiae laudantium. Quo, repellat reprehenderit. Natus
+                                                                reiciendis facere excepturi tenetur a dignissimos
+                                                                consequatur eaque aspernatur cumque perspiciatis est
+                                                                neque numquam nam, debitis reprehenderit necessitatibus!
+                                                                Iure cum dicta facilis repellendus accusantium quam
+                                                                ullam ea, nihil, suscipit, minima obcaecati ab
+                                                                inventore!
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- /F.A.Q. CARD -->
+
+
+
                                     </div>
                                 </div>
                             </div>
@@ -581,6 +653,9 @@
                             <div class="col-12 col-lg-4">
                                 <div class="row flex-column ">
                                     <div class="col py-3 ps-4">
+
+
+                                        <!-- TODO CARD -->
                                         <div class="card">
                                             <div class="card-header">
                                                 <h3>Todo</h3>
@@ -608,8 +683,14 @@
                                                 </ul>
                                             </div>
                                         </div>
+                                        <!-- /TODO CARD -->
+
+
+
                                     </div>
                                     <div class="col py-3 ps-4">
+
+
 
                                         <!-- graphic -->
                                         <div class="graphic rounded-2 bg-white card-h p-3">
@@ -633,6 +714,7 @@
                                         <!-- /graphic -->
 
 
+
                                     </div>
                                 </div>
                             </div>
@@ -647,7 +729,6 @@
 
         </main>
         <!-- /MAIN -->
-
 
     </div>
     <!-- /CONTAINER -->
