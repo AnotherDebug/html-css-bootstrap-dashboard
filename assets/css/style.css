@@ -1,8 +1,16 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
 body {
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+/************************************************
+    CUSTOM PROPERTIES
+ ************************************************/
 .w-95 {
     width: 95%;
 }
@@ -11,10 +19,25 @@ body {
     padding-right: 12px;
 }
 
+.border-none-ad {
+    border: none;
+}
+
+/* COLORS */
+
+/* color */
 .white-color {
     color: white;
 }
 
+.orange-color {
+    color: #ff8f00;
+}
+
+/* /color */
+
+
+/* background color */
 .bg-beige {
     background-color: #f8f9fa;
 }
@@ -23,17 +46,21 @@ body {
     background-color: #0f4286;
 }
 
+/* background color */
 
-/* !"DEBUG" DA ELIMINARE TERMINATO IL CODICE*/
-.debug {
-    background-color: rgba(0, 102, 255, 0.5);
-    border: 1px solid #000;
-}
+/* COLORS */
 
+/* /CUSTOM PROPERTIES */
+
+
+/************************************************
+    SITE SECTIONS
+ ************************************************/
 /* container */
 .container-fluid {
     padding: 0;
 }
+
 
 
 /* HEADER */
@@ -67,12 +94,17 @@ body {
 /* /HEADER */
 
 
+
 /* MAIN */
 .main-content {
     height: 100vh;
     margin-top: 60px;
 }
 
+
+
+
+/* sidebar */
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -98,6 +130,12 @@ body {
     margin-bottom: 60px;
 }
 
+/* /sidebar */
+
+
+
+
+/* content */
 .content {
     height: 100%;
     width: calc(100% - 150px);
@@ -107,7 +145,7 @@ body {
 
 
 
-
+/* content table */
 .table tr td:first-child .img {
     height: 25px;
 }
@@ -116,7 +154,12 @@ body {
     height: 100%;
 }
 
+/* /content table */
 
+
+
+
+/* content card */
 .graphic {
     border: 1px solid lightgrey;
 }
@@ -128,6 +171,9 @@ body {
 
 
 
+/************************************************
+    RESPONSIVE
+ ************************************************/
 /* breakpoint md */
 @media screen and (max-width: 992px) {
     .fixed-top .container-fluid .mobile-logo {
@@ -178,25 +224,15 @@ body {
 
 
 /* breakpoint xxl */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
 
-   
-    /* .table-class .table tr td:first-child {
-        width: 10%;
-    } */
-}
+    .table tr th:nth-child(2),
+    .table tr th:nth-child(3),
+    .table tr td:nth-child(2),
+    .table tr td:nth-child(3) {
+        display: none;
+    }
 
-/* /breakpoint xxl */
-
-
-
-
-/* breakpoint xxl */
-@media screen and (max-width: 1400px) {
-
-    /* .table-class .table tr td:first-child {
-        width: 40%;
-    } */
 }
 
 /* /breakpoint xxl */
